@@ -461,16 +461,6 @@ address {
   color: #404BBF;
 }
 
-/* 
-.customers-link:is(:hover, :focus) .customers-icon {
-  fill:#404BBF;
-}
-
-.customers-icon:is(:hover, :focus) {
-  fill:#404BBF;
-} */
-
-
 /* ----------------Footer ----------*/
 
 .site-footer {
