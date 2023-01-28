@@ -604,6 +604,11 @@ address {
   cursor: pointer;
 }
 
+.modal-close:is(:hover, :focus) {
+  color: #FFFFFF;
+  background: var(--main-hover-color);
+}
+
 
 /* --------Portfolio styles------------------ */
 
