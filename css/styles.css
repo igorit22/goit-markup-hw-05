@@ -602,11 +602,15 @@ address {
   border-radius: 50%;
 
   cursor: pointer;
+
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition-tf);
 }
 
 .modal-close:is(:hover, :focus) {
   color: #FFFFFF;
-  background: var(--main-hover-color);
+  background-color: var(--main-hover-color);
 }
 
 
