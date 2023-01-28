@@ -116,6 +116,10 @@ address {
   padding-bottom: 24px;
 
   color: var(--second--text-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition-tf);
+
 }
 
 .site-nav-link:hover,
@@ -154,13 +158,14 @@ address {
   font-size: 16px;
   line-height: var(--typical-lh);
   font-style: normal;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition-tf);
 }
 
 .contacts-link:hover,
-.contacts-link:focus {
-  color: var(--main-hover-color);
-}
-
+.contacts-link:focus,
 .contacts-link:active {
   color: var(--main-hover-color);
 }
@@ -223,6 +228,10 @@ address {
   width: 169px;
   height: 56px;
   padding: 16px 32px 16px 32px;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition-tf);
 }
 
 .button:hover,
@@ -379,6 +388,10 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition-tf);
 }
 
 .team-soc-icon {
@@ -415,6 +428,10 @@ address {
   align-items: center;
   justify-content: center;
   color: #8E8F99;
+
+  transition-property: border-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition-tf);
 }
 .customers-icon {
   fill:currentColor;
@@ -489,10 +506,10 @@ address {
   margin: 0;
   margin-bottom: 16px;
   font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 1.5;
-color: #FFFFFF;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1.5;
+  color: #FFFFFF;
 }
 
 .footer-list {
@@ -514,6 +531,10 @@ color: #FFFFFF;
   align-items: center;
   justify-content: center;
   color: #F4F4FD;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition-tf);
 }
 
 .footer-soc-icon {
@@ -555,6 +576,10 @@ color: #FFFFFF;
   line-height: var(--typical-lh);
   letter-spacing: 0.04em;
   cursor: pointer;
+
+  transition-property: background-color, color, box-shadow,  border;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition-tf);
 }
 
 .portfolio-nav:hover,
